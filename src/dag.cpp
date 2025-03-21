@@ -17,7 +17,6 @@ std::set<Node*>* Node::getEdges() {
     return &this->edges;
 }
 
-
 DAG::DAG(int num_nodes, int num_entrances) {
     if (num_nodes < 1) {
         throw std::runtime_error("Cannot have 0 nodes!");
